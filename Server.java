@@ -17,15 +17,10 @@ public class Server {
 		} else
 			// Connection successful
 			System.out.println("Server is now connected to database");
-			
+
+			// Access the database here
 		
-			
-			ArrayList<String> list = DATABASE.getGroupMessages("falloutgamers");
-			
-			for (int i = 0; i < list.size(); i++) {
-				System.out.println(list.get(i));
-			}
-			
+			//DATABASE.getUserIDs();
 	}
 	
 	
